@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphones</title>
+    <link rel="stylesheet" href="6-styles.css">
+    <link rel="stylesheet" href="icons/style.css">
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="images/logo_headphones.png" alt="Headphones">
+            </div>
+            
+            <!-- Mobile Menu Checkbox (hidden) -->
+            <input type="checkbox" id="nav-toggle" class="nav__toggle-checkbox">
+            
+            <!-- Mobile Menu Toggle Label -->
+            <label for="nav-toggle" class="nav__toggle">
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+            </label>
+            
+            <!-- Navigation Menu -->
+            <ul class="nav__menu">
+                <li class="nav__item">
+                    <a href="#what-we-do" class="nav__link">what we do</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#our-results" class="nav__link">our results</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact-us" class="nav__link">contact us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero__content container">
+            <h1 class="hero__title">Lorem ipsum dolor set amet lorem ipsum</h1>
+            <p class="hero__subtitle">Lorem ipsum dolor set amet lorem ipsum dolor set</p>
+            <a href="#call-to-action" class="hero__button btn">CALL TO ACTION</a>
+            <p class="hero__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+        </div>
+    </section>
+    
+    <!-- section what-we-do -->
+    <section class="what-we-do" id="what-we-do">
+        <div class="container">
+            <h2 class="section-title">What we do...</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate repellat reprehenderit explicabo illo nobis velit officiis, natus ullam. Minus officia ullam aliquam error a est excepturi recusandae dicta soluta dolorum.</p>
+            <div class="services">
+                <div class="service">
+                    <i class="holberton_school-icon-ic_sound"></i>
+                    <h3 class="service__title">Lorem ipsum</h3>
+                    <p class="service__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <i class="holberton_school-icon-ic_video"></i>
+                    <h3 class="service__title">Lorem ipsum</h3>
+                    <p class="service__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <i class="holberton_school-icon-ic_music"></i>
+                    <h3 class="service__title">Lorem ipsum</h3>
+                    <p class="service__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <i class="holberton_school-icon-ic_hearing"></i>
+                    <h3 class="service__title">Lorem ipsum</h3>
+                    <p class="service__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Results Section -->
+    <section class="our-results" id="our-results">
+        <div class="container">
+            <h2 class="section-title">Our results speak for themselves</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            
+            <div class="results-grid">
+                <div class="result-item">
+                    <div class="pentagon">
+                        <div class="result-percentage">+2%</div>
+                        <div class="result-text">Lorem ipsum dolor</div>
+                    </div>
+                </div>
+                
+                <div class="result-item">
+                    <div class="pentagon">
+                        <div class="result-percentage">+2%</div>
+                        <div class="result-text">Lorem ipsum dolor</div>
+                    </div>
+                </div>
+                
+                <div class="result-item">
+                    <div class="pentagon">
+                        <div class="result-percentage">+2%</div>
+                        <div class="result-text">Lorem ipsum dolor</div>
+                    </div>
+                </div>
+                
+                <div class="result-item">
+                    <div class="pentagon">
+                        <div class="result-percentage">+2%</div>
+                        <div class="result-text">Lorem ipsum dolor</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!-- contact us section  -->
+<div class="contact-wrapper">
+  <div class="contact-container">
+    <h1 class="contact-title">Contact us</h1>
+    
+    <form class="contact-form">
+      <div class="form-group">
+        <label class="form-label" for="name">Name</label>
+        <input type="text" id="name" name="name" class="form-input" required>
+      </div>
+      
+      <div class="form-group">
+        <label class="form-label" for="email">Email</label>
+        <input type="email" id="email" name="email" class="form-input" required>
+      </div>
+      
+      <div class="form-group">
+        <label class="form-label" for="message">Your message</label>
+        <textarea id="message" name="message" class="form-input message-input" required></textarea>
+      </div>
+      
+      <button type="submit" class="cta-button">Call to Action</button>
+    </form>
+  </div>
+</div>
+
+<!-- footer section   -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-logo">
+      <img src="images/logo_headphones.png" alt="Headphones logo">
+    </div>
+    <div class="footer-social">
+      <i class="holberton_school-icon-ic_facebook"></i>
+      <i class="holberton_school-icon-ic_twitter"></i>
+      <i class="holberton_school-icon-ic_instagram"></i>
+    </div>
+  </div>
+  <p class="footer-bottom">©headphones 2020</p>
+</footer>
+
+</body>
+</html>
